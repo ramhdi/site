@@ -9,9 +9,3 @@ html {
 body {
   @apply bg-background text-text font-sans;
 }
-
-@layer utilities {
-  .bg-circuit-board {
-    background-image: url('/path/to/circuit-board.svg');
-  }
-}

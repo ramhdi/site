@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutMe: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen pt-20 bg-background bg-circuit-board bg-cover bg-center px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen pt-20 bg-background bg-cover bg-center px-4">
       <img
         src="hero.png"
         alt="Hero"
