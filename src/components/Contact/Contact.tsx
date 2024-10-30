@@ -1,6 +1,6 @@
 // src/components/Contact.tsx
 import React from 'react';
-import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGithub, FaFilePdf } from 'react-icons/fa';
 
 const Contact: React.FC = () => {
   return (
@@ -15,12 +15,6 @@ const Contact: React.FC = () => {
             rahardi6699@gmail.com
           </a>
         </p>
-        {/* <p className="flex items-center">
-          <FaPhone className="mr-2 text-accent" />
-          <a href="tel:+1234567890" className="hover:text-secondary">
-            (123) 456-7890
-          </a>
-        </p> */}
         <p className="flex items-center">
           <FaGithub className="mr-2 text-accent" />
           <a
@@ -41,6 +35,17 @@ const Contact: React.FC = () => {
             className="hover:text-secondary"
           >
             LinkedIn
+          </a>
+        </p>
+        <p className="flex items-center">
+          <FaFilePdf className="mr-2 text-accent" />
+          <a
+            href="resume/Rama_Rahardi_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-secondary"
+          >
+            View Resume
           </a>
         </p>
       </div>

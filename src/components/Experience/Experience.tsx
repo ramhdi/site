@@ -15,7 +15,7 @@ const experiences: ExperienceItem[] = [
     year: 'Aug 2022 - Present',
     title: 'Iot Application Engineer',
     company: 'CADIT Consultants',
-    description: 'Providing comprehensive vehicle telematics products and solutions for clients.',
+    description: 'Providing comprehensive vehicle telematics solutions.',
     icon: <FaLaptopCode className="text-secondary" />,
   },
   {
